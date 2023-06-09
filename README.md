@@ -17,7 +17,7 @@ Pycer的名字来源于Python和parser，这意味着它是一种关于Python的
 请将仓库克隆到本地即可。
 
 ```bash
-git clone
+git clone https://github.com/MicRev/Pycer.git
 ```
 
 ### 使用方法
@@ -28,7 +28,7 @@ Pycer的语法像是Python与C的结合体：它的关键字是Python的，而�
 
 - 语句后应该加**分号**。多数情况下这在语法层面并不严格，但我们推荐您这么做。另外，如果语句含有以下Python关键字，一定要使用分号作为结尾;
 
-```python
+```
 assert
 lambda
 return
@@ -71,7 +71,7 @@ class A
 
 - 以下Python关键字后，需要用**小括号**将相关条件包裹：
 
-```python
+```
 if
 elif
 while
