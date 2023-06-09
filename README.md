@@ -20,6 +20,8 @@ Pycer的名字来源于Python和parser，这意味着它是一种关于Python的
 git clone https://github.com/MicRev/Pycer.git
 ```
 
+或直接在Release中下载编译好的二进制文件Pycer。
+
 ### 使用方法
 
 #### 语法规范
@@ -104,13 +106,13 @@ array = [i if i % 2 == 0 else -1 for i in range(10)];
 
 #### 运行方法
 
-请确保您的C++编译器和Python环境可以正常运行。
+请确保您的Python环境可以正常运行。
 
-首先编译语法解析器Pycer。Pycer使用C++语言构建，您可以在本地用gcc等编译器编译。
+您可以直接使用编译好的二进制文件Pycer，或用源码在本地编译Pycer解析器。您可以使用gcc/g++等编译器。
 
 gcc/g++编译器:
 ```bash
-gcc ./Pycer/src/Pycer.cpp -o Pycer
+g++ ./Pycer/src/Pycer.cpp -o Pycer
 ```
 
 其他编译器也可类似编译。
