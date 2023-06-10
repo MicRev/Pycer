@@ -397,7 +397,8 @@ class FileHandler {
                     }
 
                     if (*ptr_word == "assert" || *ptr_word == "lambda" ||
-                        *ptr_word == "return" || *ptr_word == "yield") {
+                        *ptr_word == "return" || *ptr_word == "yield" ||
+                        *ptr_word == "=") {
                             fout << *ptr_word << ' ';
                             in_no_parse_area = true;
                             is_after_explicit_brafree_keyword = true;
