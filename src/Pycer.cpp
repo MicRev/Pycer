@@ -73,17 +73,6 @@ class Stack {
             return cur_ptr == 0;
         }
 
-        size_t deepth() {
-            return cur_ptr;
-        }
-
-        char top() {
-            if (cur_ptr > 0) {
-                return _stack[cur_ptr-1];
-            } else {
-                return char(0);
-            }
-        }
 };
 
 class FileHandler {
